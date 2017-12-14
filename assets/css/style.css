@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#splash{
+	background: linear-gradient(to bottom right, #460651FF, #F4007AFF);
+	display: flex;
+	height: 100vh;
+}
+.logo{
+	width: 50%;
+}
+#sign{
+	background-image: url(../img/lyft-glowstache-2-e1490826207771.jpg);
+	background-size: cover;
+	object-fit: cover;
+	height: 100vh;
+  background-position-x: 70%;
+}
+.logo-sign{
+	width: 50%;
+}
+.logo-div{
+  margin: 15em 0 !important;
+  padding-right: 3em !important;
+}
+.sign-btn{
+  border: 1px solid #FFF !important;
+}
+.nav-logo{
+  width: 30%;
+  padding-top: 0.7em;
+  margin-left: 6em;
+}
+.title-sign{
+  padding: 2.5em !important;
+}
+span{
+  color: #4a148c !important;
+}
+#next{
+  margin-top: 13em;
+  margin-left: 1.4em;
+}
+#next-2, #next-3{
+  margin-top: 6em;
+  margin-left: 1.4em;
+}
+#ready{
+  background-image: url(../img/lyftpic.png);
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  background-position-x: 49%;
+}
+.welcome{
+  padding-top: 13em !important;
+}
+.welcome h2{
+  font-size: 5em !important;
+  font-style: italic;
+}

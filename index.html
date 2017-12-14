@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Lyft</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+<body>
+  <div class="row center valign-wrapper" id="splash">
+    <div class="col s12">
+      <img class="logo" src="assets/img/fc0.logo_standard_silver.png">
+    </div>
+  </div>
+  <section id="sign">
+    <div class="row">
+      <div class="col s12 right-align logo-div">
+        <img class="logo-sign" src="assets/img/fc0.logo_standard_silver.png">
+      </div>
+      <div class="col s4 offset-s1"><a class="waves-effect waves-light btn-large transparent sign-btn">Log In</a></div>
+      <div class="col s4 offset-s2"><a id="sign-in" class="waves-effect waves-light btn-large transparent sign-btn">Sign In</a></div>
+    </div>
+  </section>
+  <section  id="sign-phone">
+    <div class="row">
+      <nav class="nav-extended  purple darken-4">
+        <div class="nav-wrapper valign-wrapper">
+          <a href="#!" class="brand-logo"><img class="nav-logo" src="assets/img/fc0.logo_standard_silver.png"></a>
+          <a id="back-btn" class="btn-floating btn-large halfway-fab waves-effect white-text waves-light left pink darken-2">
+            <i class="material-icons">chevron_left</i>
+          </a>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col s12 title-sign center purple-text text-darken-4">
+          <h3>Sign Up</h3>
+          <h5>Join now for free credit</h5>
+        </div>
+        <div class="divider"></div>
+        <div class="col s4 offset-s1 purple-text text-darken-4">   
+          <div class="input-field col s12 purple-text text-darken-4">
+            <select class="purple-text text-darken-4">
+              <option class="left purple-text text-darken-4" data-icon="assets/img/Chile_flags_flag_9029.png" value="1">Chi</option>
+              <option class="left purple-text text-darken-4" data-icon="assets/img/Peru_flags_flag_8897.png" value="2">Per</option>
+              <option class="left purple-text text-darken-4" data-icon="assets/img/Mexico_flags_flag_8930.png" value="3">Mex</option>
+            </select>
+          </div>
+        </div>
+        <div class="col s6">
+          <div class="row">
+            <div class="input-field col s12">
+              <input value="+5" id="tel-number" data-length="11" type="text" class="validate">
+              <label for="number">Number</label>
+            </div>
+          </div>
+        </div>
+        <div class="col s4 offset-s4">
+          <a id="next" class="waves-effect disabled waves-light btn-large purple darken-4">Next</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="verify">
+    <div class="row">
+      <nav class="nav-extended  purple darken-4">
+        <div class="nav-wrapper valign-wrapper">
+          <a href="#!" class="brand-logo"><img class="nav-logo" src="assets/img/fc0.logo_standard_silver.png"></a>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col s12 title-sign center purple-text text-darken-4">
+        <h3>Verify your phone number</h3>
+        <h5>Join now for free credit</h5>
+      </div>
+      <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s2 offset-s5 off">
+            <input id="code" type="number" data-length="3" class="validate">
+            <label for="input_number" data-error="wrong" data-success="valid">Code</label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+      <div class="col s4 offset-s4">
+        <a id="resend" class="waves-effect waves-light btn-large purple darken-4">Resend code</a>
+        <a id="next-2" class="waves-effect disabled waves-light btn-large purple darken-4">Next</a>
+      </div>
+    </div>
+  </section>
+  <section id="sign-up">
+    <div class="row">
+    <nav class="nav-extended  purple darken-4">
+      <div class="nav-wrapper valign-wrapper">
+        <a href="#!" class="brand-logo"><img class="nav-logo" src="assets/img/fc0.logo_standard_silver.png"></a>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col s12 title-sign center purple-text text-darken-4">
+        <h3>Sign Up</h3>
+        <h5>Join now for free credit</h5>
+      </div>
+       <div class="row">
+        <form class="col s10 offset-s1 center">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="text" type="text" class="validate">
+              <label for="text" data-error="wrong" data-success="valid">First Name</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mail</i>
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="valid">Email</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <p>
+            <input type="checkbox" id="test5" />
+            <label for="test5">I agree to Lyft's <a href="#">Terms of Service</a></label>
+          </p>
+        </div>
+      </div>
+      <div class="col s4 offset-s4">
+        <a id="next-3" class="waves-effect disable waves-light btn-large purple darken-4">Next</a>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="ready">
+    <div class="row">
+      <nav class="nav-extended  purple darken-4">
+        <div class="nav-wrapper valign-wrapper">
+          <a href="#!" class="brand-logo"><img class="nav-logo" src="assets/img/fc0.logo_standard_silver.png"></a>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col s12 white-text welcome center">
+          <h2>Welcome</h2>
+          <h3>to</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
